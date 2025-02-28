@@ -2,7 +2,7 @@ import React from "react";
 
 const DownloadSection = () => {
   return (
-    <div className="w-full h-screen flex px-5 py-24 md:flex-row flex-col items-center justify-center bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700">
+    <div id="instalacion" className="w-full h-screen flex px-5 py-24 md:flex-row flex-col items-center justify-center bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700">
       <div className="hidden md:block lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
         <img
           src="firefox.png"
@@ -15,14 +15,14 @@ const DownloadSection = () => {
           Disponible para móviles
         </h1>
         <div className="flex md:flex-row flex-col flex-wrap gap-5 justify-center items-center">
-          <button className="btn-download">
+          <button className="btn-download hover:scale-110 transition-all duration-500">
             <img src="google-play.png" className="w-10 h-10" />
             <span className="ml-4 flex flex-col items-start leading-none text-white">
               <span className="text-xs uppercase">Disponible en</span>
               <span className="font-medium text-xl">Google Play</span>
             </span>
           </button>
-          <button className="btn-download">
+          <button className="btn-download hover:scale-110 transition-all duration-500">
             <img src="apple-logo.png" className="w-10 h-10" />
             <span className="ml-4 flex flex-col items-start leading-none text-white">
               <span className="text-xs">Consíguelo en</span>

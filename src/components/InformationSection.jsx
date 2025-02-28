@@ -1,22 +1,37 @@
 import React from "react";
+import { motion } from "framer-motion"
 
 const InformationSection = () => {
   return (
-    <section>
-      <h1 className="md:text-6xl text-5xl text-center font-medium md:mt-40 md:mb-80 my-28">
-        Lorem, ipsum dolor.
+    <section className="overflow-hidden">
+      <h1
+        className="md:text-6xl text-5xl text-center font-medium md:mt-40 md:mb-80 my-28"
+        id="caracteristicas"
+      >
+        Lleva Firefox contigo, rápido, seguro y sincronizado.
       </h1>
-      <div className="flex px-5 pb-10 md:pb-24 items-center flex-col">
+      <div className="flex px-5 pb-10 md:pb-24 items-center flex-col ">
         {/* SVG e Imagen */}
-        <div className="relative w-full flex justify-center items-end">
+        <div className="relative w-full flex justify-center items-end ">
           {/* Imagen */}
           <img
+            id="caracteristicas"
             src="image_info1.png"
             className="w-4/5 md:w-8/12 h-1/5 mb-10 object-cover object-center rounded-md z-10"
             alt=""
           />
           {/* SVG */}
-          <svg
+          <motion.svg
+            animate={{
+              rotate: [0, 5, -5, 0], // Gira ligeramente de un lado a otro
+              scale: [1, 1.2, 1],
+            }}
+            transition={{
+              duration: 20, // Duración de un ciclo de la animación
+              repeat: Infinity, // Repetir indefinidamente
+              repeatType: "loop", // Repetir de manera cíclica
+              ease: "easeInOut", // Tipo de transición
+            }}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1242 532"
             className="absolute"
@@ -79,47 +94,41 @@ const InformationSection = () => {
               fill="url(#c2)"
               d="M678 256.3L981.8 59.1c58.4-37.9 136.5-21.3 174.5 37.1l.1.2c37.9 58.4 21.3 136.5-37.1 174.5L815.5 468.1C757.1 506 679 489.4 641.1 431l-.1-.2c-38-58.4-21.4-136.5 37-174.5z"
             ></path>
-          </svg>
+          </motion.svg>
         </div>
         {/* Textos */}
         <div className="xl:w-2/3 w-full px-8 xl:px-0 mt-5 md:mt-0 flex justify-between lg:flex-row flex-col gap-10">
           <div className="mt-20 md:mt-0">
             <h1 className="sm:text-4xl text-3xl mb-4 font-medium ">
-              Lorem ipsum dolor sit amet.
+              Conéctate con tus aplicaciones favoritas
             </h1>
-            <p className="mb-8 leading-relaxed">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-              facere repudiandae alias et quo quod ex dolores at. Officia
-              laboriosam numquam quod illo magni animi necessitatibus dolore
-              officiis sapiente quos.
+            <p className="mb-8 leading-relaxed text-gray-400">
+              Integra Firefox con herramientas como Google Drive, Slack y más
+              para una experiencia fluida y productiva.
             </p>
           </div>
           <div>
             <h1 className="sm:text-4xl text-3xl mb-4 font-medium ">
-              Lorem ipsum dolor sit amet.
+              Inicia sesión sin complicaciones
             </h1>
-            <p className="mb-8 leading-relaxed">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-              facere repudiandae alias et quo quod ex dolores at. Officia
-              laboriosam numquam quod illo magni animi necessitatibus dolore
-              officiis sapiente quos.
+            <p className="mb-8 leading-relaxed text-gray-400">
+              Guarda y autocompleta contraseñas de forma segura con la
+              integración de gestores como Bitwarden y 1Password.
             </p>
           </div>
           <div>
             <h1 className="sm:text-4xl text-3xl mb-4 font-medium ">
-              Lorem ipsum dolor sit amet.
+              Comparte y colabora fácilmente
             </h1>
-            <p className="mb-8 leading-relaxed">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-              facere repudiandae alias et quo quod ex dolores at. Officia
-              laboriosam numquam quod illo magni animi necessitatibus dolore
-              officiis sapiente quos.
+            <p className="mb-8 leading-relaxed text-gray-400">
+              Envía enlaces, guarda artículos y trabaja en equipo con
+              extensiones y servicios conectados a tu navegador.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto px-5 pb-24">
+      <div id="componentes" className="container mx-auto px-5 pb-24">
         <div className="flex md:flex-row flex-col flex-wrap -mx-4 -mb-10">
           <div className="md:w-1/2 mb-10 px-4 flex flex-col items-center justify-center">
             <div className="h-80 lg:h-96">
@@ -129,14 +138,15 @@ const InformationSection = () => {
                 alt=""
               />
             </div>
-            <h2 className="text-4xl font-medium mt-10 mb-3 ">
-              Lorem ipsum dolor sit.
+            <h2 className="text-4xl font-medium mt-10 mb-3 text-center ">
+              Colabora sin esfuerzo
             </h2>
-            <p className="leading-relaxed text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-              facilis corporis, velit ducimus aut eaque suscipit id fuga
-              temporibus obcaecati aspernatur non sit magnam. Autem quidem quas
-              ex optio accusamus?
+            <p className="leading-relaxed text-lg text-gray-400">
+              Firefox facilita el trabajo en equipo con herramientas que te
+              permiten compartir enlaces, guardar artículos y sincronizar
+              marcadores en todos tus dispositivos. Usa extensiones para
+              integrarte con plataformas como Notion, Trello o Evernote y
+              mantener tu flujo de trabajo organizado.
             </p>
           </div>
           <div className="md:w-1/2 mb-10 px-4 flex flex-col items-center justify-center">
@@ -147,14 +157,15 @@ const InformationSection = () => {
                 alt=""
               />
             </div>
-            <h2 className="text-4xl font-medium mt-10 mb-3 ">
-              Lorem ipsum dolor sit.
+            <h2 className="text-4xl font-medium mt-10 mb-3 text-center ">
+              Automatiza tareas y optimiza tu productividad
             </h2>
-            <p className="leading-relaxed text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-              facilis corporis, velit ducimus aut eaque suscipit id fuga
-              temporibus obcaecati aspernatur non sit magnam. Autem quidem quas
-              ex optio accusamus?
+            <p className="leading-relaxed text-lg text-gray-400">
+              Con la integración de Firefox con plataformas como Zapier e IFTTT,
+              puedes automatizar tareas repetitivas, conectar diferentes
+              aplicaciones y crear flujos de trabajo personalizados. Desde
+              gestionar correos electrónicos hasta organizar tus proyectos en
+              herramientas como Trello o Asana.
             </p>
           </div>
         </div>
