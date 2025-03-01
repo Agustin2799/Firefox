@@ -60,12 +60,10 @@ Este proyecto me permitió:
 
 ## 🧑‍💻 Autor  
 
-Desarrollado por **[Agustín Alonso - FrontEnd developer](https://github.com/Agustin2799)**.  
-Si te gusta este proyecto, **¡no olvides darle una ⭐ en GitHub!**  
+Desarrollado por **[Agustín Alonso - FrontEnd developer](https://www.linkedin.com/in/agustin-alonso-p/)**.  
 
----
+`Si te gusta este proyecto, ¡no olvides darle una ⭐ en GitHub!.`
 
 ## 📜 Licencia  
 
 Este proyecto está bajo la **Licencia MIT**.  
-
