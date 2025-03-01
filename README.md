@@ -27,7 +27,7 @@ El propósito principal fue **practicar la implementación de Tailwind CSS para 
 
 ## 📸 Vista Previa  
 
-![Captura de patntalla del sitio](/firefox/public/capturaFirefox.png)
+![Captura de patntalla del sitio](./public/capturaFirefox.png)
 
 ---
 
