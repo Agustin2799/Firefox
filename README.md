@@ -3,7 +3,7 @@
 Este proyecto es una **simulación del sitio web de Firefox**, creada con **React**, **Vite**, **Tailwind CSS** y **Framer Motion**.  
 El propósito principal fue **practicar la implementación de Tailwind CSS para el diseño responsivo**, React para la estructura de la UI y Framer Motion para añadir **animaciones atractivas** y mejorar la experiencia de usuario.  
 
-🚀 **Live Demo**: [Enlace a la demo](#) *(Agrega tu enlace aquí)*  
+🚀 **Live Demo**: [Enlace a la demo](https://firefox-beta-five.vercel.app/)
 
 ---
 
@@ -46,13 +46,6 @@ npm install
 ```bash
 npm run dev
 ```
-## ⚙️ Personalización  
-
-Si deseas modificar el diseño, aquí tienes algunos puntos clave:  
-
-📁 **`src/components/`** – Contiene los bloques principales de la UI.  
-🎨 **`tailwind.config.js`** – Puedes personalizar los colores y estilos globales.  
-📜 **`src/animations.js`** – Puedes modificar las transiciones y efectos de Framer Motion.  
 
 ---
 
