@@ -27,7 +27,7 @@ El propósito principal fue **practicar la implementación de Tailwind CSS para 
 
 ## 📸 Vista Previa  
 
-*(Agrega aquí una imagen o gif de la UI en acción)*  
+![Captura de patntalla del sitio](/firefox/public/capturaFirefox.png)
 
 ---
 
@@ -35,8 +35,8 @@ El propósito principal fue **practicar la implementación de Tailwind CSS para 
 
 1️⃣ **Clona el repositorio**  
 ```bash
-git clone https://github.com/tu-usuario/firefox-clone.git
-cd firefox-clone
+git clone https://github.com/Agustin2799/Firefox.git
+cd firefox
 ```
 2️⃣ **Instala las dependencias**
 ```bash
@@ -67,7 +67,7 @@ Este proyecto me permitió:
 
 ## 🧑‍💻 Autor  
 
-Desarrollado por **[Tu Nombre](https://github.com/tu-usuario)**.  
+Desarrollado por **[Agustín Alonso - FrontEnd developer](https://github.com/Agustin2799)**.  
 Si te gusta este proyecto, **¡no olvides darle una ⭐ en GitHub!**  
 
 ---
