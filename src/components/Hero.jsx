@@ -66,7 +66,7 @@ const Hero = () => {
             duration: 1,
             ease: "easeInOut", // Tipo de transición
           }}
-          className="sm:text-5xl text-4xl mb-4 font-light text-center leading-tight text-gray-200"
+          className="sm:text-5xl text-4xl mb-4 font-light text-center leading-tight text-gray-400"
         >
           Con herramientas avanzadas de protección, Firefox te ayuda a mantener
           tu información privada mientras navegas libremente.
